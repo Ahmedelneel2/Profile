@@ -1,0 +1,123 @@
+:root{
+  --mainColor:#2C3E50;
+  --secoundryColor:#1ABC9C;
+}
+.footer{
+background-color: #0C1116;
+color: white;
+}
+.navbar  {
+  background-color: #2C3E50;
+
+}
+.navbar-brand , .nav-link{
+    color: white !important;
+    font-weight: 700 !important;
+
+}
+
+.nav-item .active{
+  background-color: var(--secoundryColor) ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/* home styles */
+.backImg{
+  background-color: var(--secoundryColor);
+}
+.home{
+  background-color: #1ABC9C;
+}
+i{
+  color: #ffff;
+  margin-inline: 10px;
+}
+.line{
+  width: 100px;
+  height: 3px;
+  background-color: #ffff;
+  
+}
+/* befor footer styles  */
+.BefFooter div{
+  background-color: var(--mainColor);
+}
+.BefFooter p {
+  line-height: 95%;
+}
+.BefFooter i {
+cursor: pointer;
+}
+/* about styles  */
+.about{
+  background-color: var(--secoundryColor);
+}
+/* portoflio styled */
+ h1{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.portflio ,.contact {
+  color: var(--mainColor);
+}
+.portflio .shape i , .contact .shape i {
+  color: var(--mainColor);
+}
+.portflio .shape div ,.contact .shape div { 
+  background-color: var(--mainColor);
+}
+.portflio img{
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+ .plus{
+  background-color: rgba(26, 188, 156,.7);
+  width: 72.5%;
+  opacity: 0;
+  transition:all .5s  ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition:all .5s  ;
+  -moz-transition:all .5s  ;
+  -ms-transition:all .5s  ;
+  -o-transition:all .5s  ;
+}
+.plus:hover {
+opacity: 1;
+}
+.plus i{
+color: #FFFFFF;
+font-size: 120px;
+}
+.layerImg{
+  z-index: 10000;
+  background-color: rgb(0, 0, 0);
+  
+}
+/* contact styles  */
+.contact input{
+  background-color: transparent;
+  border: 0 transparent;
+  outline: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.603) ;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.contact button{
+  background-color: var(--secoundryColor);
+  color: white;
+}
